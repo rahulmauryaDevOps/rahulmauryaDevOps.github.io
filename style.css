@@ -773,7 +773,7 @@ color:#cbd5e1;
 
 .skills{
 
-    padding:120px 0;
+    padding:120px 8%;
 
     background:#050816;
 
@@ -906,7 +906,9 @@ color:#cbd5e1;
 
 .projects{
 
-background:#070b16;
+    padding:120px 8%;
+
+    background:#070b16;
 
 }
 

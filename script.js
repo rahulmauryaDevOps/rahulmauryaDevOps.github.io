@@ -1,9 +1,11 @@
-// Always start from top after refresh
-history.scrollRestoration = "manual";
+// Always start from top after page load
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
 
-window.onload = function () {
+window.addEventListener("pageshow", function () {
     window.scrollTo(0, 0);
-};
+});
 
 // ==============================
 // Typing Animation

@@ -1,3 +1,10 @@
+// Always start from top after refresh
+history.scrollRestoration = "manual";
+
+window.onload = function () {
+    window.scrollTo(0, 0);
+};
+
 // ==============================
 // Typing Animation
 // ==============================

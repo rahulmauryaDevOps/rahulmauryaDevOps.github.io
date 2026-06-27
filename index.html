@@ -671,23 +671,29 @@ using Terraform.
 
             <h3>Send Message</h3>
 
-            <form>
+ <form action="https://formsubmit.co/rahul563maurya@gmail.com" method="POST">
 
-                <input type="text" placeholder="Full Name">
+    <input type="hidden" name="_captcha" value="false">
 
-                <input type="email" placeholder="Email Address">
+    <input type="hidden" name="_template" value="table">
 
-                <input type="text" placeholder="Subject">
+    <input type="hidden" name="_subject" value="New Portfolio Contact">
 
-                <textarea rows="4" placeholder="Write your message..."></textarea>
+    <input type="hidden" name="_next" value="https://rahulmauryadevops.github.io/">
 
-                <button type="submit">
+    <input type="text" name="name" placeholder="Full Name" required>
 
-                    Send Message
+    <input type="email" name="email" placeholder="Email Address" required>
 
-                </button>
+    <input type="text" name="subject" placeholder="Subject" required>
 
-            </form>
+    <textarea name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+    <button type="submit">
+        Send Message
+    </button>
+
+</form>
 
         </div>
 

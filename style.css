@@ -1174,6 +1174,8 @@ transform:translateY(-4px);
 
 }
 
+
+
 .contact-card:hover .contact-icon{
 
     transform:rotate(8deg) scale(1.1);
